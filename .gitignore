@@ -1,15 +1,36 @@
+# IDEA
+.idea/
+*.iml
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+*.zip
 
 # Test binary, built with `go test -c`
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Output of compiling and such
+pictureframe
+pictureframe.exe
+
+# Output of running test instances
+log.json
+metrics.json
+
+# Real config file is never committed
+config.json
+
+# Local development test files
+hibernateOn.bat
+hibernateOff.bat
+hibernateResult.txt
 
 # Dependency directories (remove the comment below to include it)
 # vendor/

@@ -1,0 +1,41 @@
+{
+  "server": {
+    "ip": "127.0.0.1",
+    "port": 8000,
+    "hibernateOn": [
+      "hibernateOn.sh"
+    ],
+    "hibernateOff": [
+      "hibernateOff.sh"
+    ],
+    "calendarFaMappings": {
+      "Birthday": "fa-cake-candles",
+      "Medical": "fa-briefcase-medical"
+    }
+  },
+  "webdav": {
+    "root": "https://mynextcloud-server.com/remote.php/dav/files/pictureframe/",
+    "user": "nextcloud_user",
+    "password": "nextcloud_password",
+    "folders": [
+      "My great pictures",
+      "Wallpapers"
+    ],
+    "excludeFolders": [
+      "Wallpapers/Uninteresting"
+    ],
+    "maxFilesizeMb": 20.0,
+    "lightpictureBase": "https://mylightpicture-server.com/lightpicture"
+  },
+  "caldav": {
+    "baseUrl": "https://mynextcloud-server.com",
+    "homePath": "/remote.php/dav",
+    "user": "nextcloud_user",
+    "password": "nextcloud_password"
+  },
+  "openweather": {
+    "lat": 53.8505,
+    "lon": 10.6989,
+    "appid": "abcdefg123"
+  }
+}

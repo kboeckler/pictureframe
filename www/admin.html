@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pictureframe - Adminpanel</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="fa/css/all.css" rel="stylesheet">
+</head>
+<body class="adminbody">
+<div id="systemlist">
+</div>
+<div class="header">Pictureframe - Adminpanel</div>
+<div>Current hibernation state: <span id="hibernateState">-</span>
+    <button class="adminbtn" onclick="admin_loadHibernateState()"><i class="fa-solid fa-xs fa-refresh"></i></button>
+    <button class="adminbtn" onclick="admin_toggleHibernateState()"><i class="fa-solid fa-xs fa-power-off"></i> Toggle</button>
+</div>
+<script src="script.js"></script>
+<script>
+    admin_loadHibernateState()
+</script>
+</body>
+</html>
